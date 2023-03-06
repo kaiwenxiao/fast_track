@@ -1,0 +1,84 @@
+div {
+  line-height: 20px;
+  font-size: 16px;
+  font-family: "MarkForMC-Book";
+}
+.entitlement-wrapper {
+  .entitlement-detail {
+    padding: 48px 0;
+    .entitlement-item {
+      width: 340px;
+      height: 120px;
+      padding: 15px;
+      margin-right: 48px;
+      background: url("~img/bg-entitlement@2x.png") no-repeat;
+      background-size: contain;
+      box-sizing: border-box;
+      .icon-wrapper {
+        img {
+          width: 28px;
+        }
+        .note {
+          font-size: 12px;
+          font-family: "MarkForMC-Book";
+        }
+      }
+      p {
+        font-size: 12px;
+        @extend .ff-bold;
+      }
+      .entitlement-title {
+        clear: both;
+        font-size: 18px;
+        @extend .ff-bold;
+        padding-bottom: 6px;
+        @include textOverflow()
+      }
+      .refresh-date-title {
+        line-height: 14px;
+        font-size: 12px;
+        transform: scale(.8);
+        margin-left: -12%;
+      }
+      .refresh-date {
+        font-size: 12px;
+        @extend .ff-bold;
+      }
+    }
+  }
+}
+.no-entitlement {
+  padding-top: 88px;
+  text-align: center;
+  .icon-no-entitlement {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 24px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  div {
+    line-height: 18px;
+    font-size: 14px;
+    font-family: "MarkForMC-Book";
+  }
+  .entitlement-wrapper {
+    padding-bottom: 80px;
+    .entitlement-detail {
+      padding: 32px 0;
+      .entitlement-item {
+        &:nth-of-type(2) {
+          margin-top: 24px;
+        }
+      }
+    }
+  }
+  .no-entitlement {
+    padding: 80px 0 248px;
+    div {
+      line-height: 20px;
+      font-size: 16px;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "card-no-eligible": "Infelizmente, o seu cartão já não é elegível para este benefício.",
+  "field-empty-msg": "Este campo é obrigatório.",
+  "card-no-length": "Introduza todos os 16 dígitos do número do seu cartão Mastercard.",
+  "card-not-eligible": "Cartão não reconhecido. Verifique se os detalhes do seu cartão foram introduzidos corretamente. Caso contrário, utilize outro cartão Mastercard.",
+  "cvc-incorrect": "O CVC está incorreto.",
+  "expiry-date-incorrect": "A data de validade está incorreta.",
+  "card-invalid": "Este número de cartão é inválido. Por favor, tente novamente.",
+  "card-is-reg": "Este cartão já está registado. Por favor, <span class='login' style='color: #062cf8;text-decoration: underline;font-weight: bold;cursor: pointer;'>inicie a sessão</span> ou tente novamente com um Mastercard diferente.",
+  "card-not-mastercard": "Introduza um número de cartão Mastercard válido.",
+  "pwd-not-match": "As palavras-passe não coincidem. Por favor, tente novamente.",
+  "pwd-invalid": "A sua palavra-passe só pode conter caracteres latinos.",
+  "pwd-incorrect": "A palavra-passe está incorreta.",
+  "email-invalid": "Introduza um endereço de e-mail válido.",
+  "login-info-err": "O seu endereço de e-mail ou a palavra-passe estão incorretos. Por favor, tente novamente.",
+  "phone-invalid": "Preencha no formato correto.",
+  "name-invalid": "O seu nome tem de estar escrito em letras latinas, tal como aparece no seu passaporte.",
+  "email-is-reg": "O endereço de e-mail já existe. Pode <span class='login' style='color: #062cf8;text-decoration: underline;font-weight: bold;cursor: pointer;'>iniciar a sessão</span> ou usar outro endereço de e-mail.",
+  "update-card-is-reg": "Este cartão já está registado e a ser utilizado. Tente novamente com um cartão Mastercard diferente ou mude a identidade de adesão.",
+  "reset-pwd-account-lock-desc": "O código foi inserido incorretamente 5 vezes. A sua conta ficará bloqueada durante 5 minutos. Tente novamente mais tarde.",
+  "email-not-match": "O endereço de e-mail não coincide."
+}

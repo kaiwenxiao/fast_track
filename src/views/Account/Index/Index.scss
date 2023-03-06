@@ -1,0 +1,189 @@
+.account-wrapper {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: left;
+  .bread-crumb {
+    line-height: 20px;
+    font-size: 16px;
+    font-family: "MarkForMC-Book";
+    margin-top: 32px;
+    span {
+      margin: 0 4px;
+    }
+  }
+  .hello-wrapper {
+    line-height: 30px;
+    font-size: 24px;
+    @extend .ff-bold;
+    padding: 32px 0 46px;
+  }
+  .content {
+    display: flex;
+    margin-bottom: 73px;
+    border-radius: 4px;
+    background-color: #E3DFD7;
+    box-shadow: 0 0 30px #00000029;
+    .slide-menu {
+      overflow: hidden;
+      width: 250px;
+      min-height: 600px;
+      padding-top: 126px;
+      background-color: #E3DFD7;
+      box-sizing: border-box;
+      .menu-item {
+        position: relative;
+        padding: 16px 25px 16px 60px;
+        box-shadow: 0 -3px 6px #00000029;
+        cursor: pointer;
+        .menu-item-icon {
+          position: absolute;
+          width: 20px;
+          height: 20px;
+          top: 16px;
+          left: 25px;
+          background-repeat: no-repeat;
+          background-size: contain;
+        }
+        .menu-item-label {
+          line-height: 20px;
+          font-size: 16px;
+          @extend .ff-bold;
+        }
+      }
+      .menu-item-actived {
+        color: #fff;
+        background-color: #FF671B;
+      }
+    }
+    .menu-content-wrapper {
+      width: 890px;
+      min-height: 600px;
+      flex: 1;
+      padding: 0 45px 0 48px;
+      color: $black;
+      box-sizing: border-box;
+      background-color: #fff;
+      .content-title {
+        line-height: 40px;
+        font-size: 32px;
+        @extend .ff-bold;
+        padding: 40px 0 32px;
+      }
+      .title-default-style {
+        font-size: 20px;
+        @extend .ff-bold;
+      }
+    }
+  }
+  .content-mobile {
+    display: none;
+  }
+}
+
+.page-loading {
+  display: block;
+  width: 100px;
+  margin: 100px auto 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .ff-bold-media {
+    font-family: 'MarkForMC-Bold';
+  }
+  .lang-ru-RU {
+    .ff-bold-media {
+      font-family: 'FuturaPTW10-Bold';
+    }
+  }
+  .lang-el-GR {
+    .ff-bold-media {
+      font-family: 'FuturaPlusW15-Bold';
+    }
+  }
+  
+  .account-wrapper {
+    width: 92%;
+    margin: 0 auto;
+    padding: 0;
+    .bread-crumb {
+      line-height: 15px;
+      font-size: 12px;
+      margin-top: 16px;
+    }
+    .hello-wrapper {
+      line-height: 20px;
+      font-size: 16px;
+      padding: 16px 0 32px;
+    }
+    .content {
+      display: none;
+    }
+    .content-mobile {
+      display: block;
+      .menu-content-wrapper {
+        float: none;
+        width: 100%;
+        min-height: auto;
+        padding: 0;
+        color: $black;
+        box-sizing: border-box;
+        background-color: #fff;
+        .content-title {
+          line-height: 30px;
+          font-size: 24px;
+          @extend .ff-bold-media;
+          padding: 32px 0 24px;
+        }
+        .title-default-style {
+          line-height: 20px;
+          font-size: 16px;
+          @extend .ff-bold-media;
+        }
+      }
+    }
+  }
+  .van-collapse-item {
+    font-size: 14px;
+    @extend .ff-bold-media;
+    color: #555555;
+    .van-cell {
+      padding: 11px 20px;
+      border: 1px solid #C3C0B8;
+      border-radius: 4px;
+      .menu-nav {
+        color: #555555;
+        .actived-menu {
+          display: flex;
+          align-items: center;
+          img {
+            width: 20px;
+            height: 20px;
+            margin-right: 16px;
+          }
+        }
+      }
+    }
+    .mune-nav-item {
+      display: flex;
+      line-height: 18px;
+      padding: 14px 24px;
+      img {
+        width: 15px;
+        height: 15px;
+        margin-right: 20px;
+      }
+    }
+    .van-collapse-item__title--expanded {
+      &::after {
+        display: none;
+      }
+    }
+    .van-collapse-item__content {
+      padding: 14px 0;
+      border: 1px solid #C3C0B8;
+      color: #555555;
+      box-shadow: 0 0 10px #00000029;
+    }
+  }
+}

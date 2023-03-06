@@ -1,0 +1,22 @@
+{
+  "card-no-eligible": "Uw kaart komt helaas niet langer in aanmerking voor dit voordeel.",
+  "field-empty-msg": "Dit veld is verplicht.",
+  "card-no-length": "Voer alle 16 cijfers van uw Mastercard-kaartnummer in.",
+  "card-not-eligible": "Kaart niet herkend. Controleer of uw kaartgegevens juist zijn ingevoerd. Gebruik anders een andere Mastercard-kaart.",
+  "cvc-incorrect": "CVC is onjuist.",
+  "expiry-date-incorrect": "Vervaldatum is onjuist.",
+  "card-invalid": "Dit kaartnummer is ongeldig. Probeer het opnieuw.",
+  "card-is-reg": "Deze kaart is al geregistreerd. <span class='login' style='color: #062cf8;text-decoration: underline;font-weight: bold;cursor: pointer;'>Inloggen</span>of probeer het opnieuw met een andere Mastercard.",
+  "card-not-mastercard": "Voer een geldig Mastercard-kaartnummer in.",
+  "pwd-not-match": "Wachtwoorden komen niet overeen. Probeer het opnieuw.",
+  "pwd-invalid": "Uw wachtwoord mag alleen Latijnse lettertekens bevatten.",
+  "pwd-incorrect": "Wachtwoord is onjuist.",
+  "email-invalid": "Voer een geldig e-mailadres in.",
+  "login-info-err": "Uw e-mailadres of wachtwoord is onjuist. Probeer het opnieuw.",
+  "phone-invalid": "Vul in de juiste notatie in.",
+  "name-invalid": "Uw naam moet in Latijnse letters worden geschreven, zoals vermeld in uw paspoort.",
+  "email-is-reg": "E-mailadres bestaat al. Ofwel<span class='login' style='color: #062cf8;text-decoration: underline;font-weight: bold;cursor: pointer;'>inloggen</span> of gebruik een ander e-mailadres.",
+  "update-card-is-reg": "Deze kaart is al geregistreerd en in gebruik. Probeer het opnieuw met een andere Mastercard-kaart of wissel van lidmaatschap.",
+  "reset-pwd-account-lock-desc": "De code is 5 keer onjuist ingevoerd. Uw account wordt 5 minuten vergrendeld. Probeer het later opnieuw.",
+  "email-not-match": "E-mailadres komt niet overeen."
+}

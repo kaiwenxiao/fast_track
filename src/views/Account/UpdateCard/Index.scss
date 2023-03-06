@@ -1,0 +1,165 @@
+.update-card-wrapper {
+  padding-top: 36px !important;
+  .back {
+    display: flex;
+    line-height: 20px;
+    @extend .ff-bold;
+    align-items: center;
+    color: #ff671b;
+    cursor: pointer;
+    img {
+      width: 9px;
+      margin-right: 8px;
+    }
+  }
+  .content-title {
+    padding-top: 24px !important;
+  }
+  .desc {
+    line-height: 20px;
+    @extend .ff-book;
+  }
+  .warming {
+    position: relative;
+    line-height: 20px;
+    @extend .ff-bold;
+    padding: 24px 0 24px 46px;
+    color: #f38b00;
+    box-sizing: border-box;
+    .icon-warming {
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      background: url('~img/icon-alert.svg') no-repeat;
+      background-size: contain;
+    }
+  }
+  .form {
+    width: 400px;
+    .card-no-warming {
+      position: relative;
+      line-height: 20px;
+      font-size: 14px;
+      padding-left: 38px;
+      margin-bottom: 16px;
+      color: $red;
+      span {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        background: url('~img/icn-error@2x.png') no-repeat;
+        background-size: contain;
+      }
+    }
+    .form-item {
+      padding-bottom: 24px;
+      .form-label {
+        height: 20px;
+        line-height: 20px;
+        @extend .ff-bold;
+        padding-bottom: 12px;
+      }
+      .form-input {
+        width: 100%;
+        height: 52px;
+        line-height: 50px;
+        @extend .ff-book;
+        padding: 0 16px;
+        border: 1px solid #c3c0b8;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      .form-input-error {
+        border-color: $red;
+      }
+      .form-card {
+        .card-first6 {
+          height: 52px;
+          line-height: 52px;
+          padding-right: 8px;
+        }
+      }
+      .form-input-last10-wrapper {
+        width: 326px;
+      }
+      .error-msg {
+        clear: both;
+        line-height: 18px;
+        font-size: 14px;
+        @extend .ff-book;
+        padding-top: 8px;
+        margin-bottom: -8px;
+        color: $red;
+      }
+    }
+    .form-item-expiryDate {
+    }
+    .form-item-cvc {
+      .form-label {
+        display: flex;
+        img {
+          width: 33px;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+  .btn-update {
+    @include confirmBtn(400px, 52px, 16px, 8px);
+    .btn-loading {
+      @include loadingBtn();
+    }
+  }
+  .desc-2 {
+    line-height: 20px;
+    font-size: 14px;
+    @extend .ff-book;
+    padding: 16px 0 32px;
+  }
+  .add-card-wrapper {
+    line-height: 20px;
+    padding-bottom: 40px;
+    .title {
+      @extend .ff-bold;
+      padding-bottom: 8px;
+    }
+    .add-card-desc {
+      @extend .ff-book;
+      a {
+        text-decoration: underline;
+        color: #067ff8;
+      }
+    }
+  }
+  .succ-popup {
+    width: 568px;
+    padding: 116px 0;
+    text-align: center;
+    img {
+      width: 50px;
+      height: 50px;
+    }
+    .title {
+      line-height: 40px;
+      font-size: 32px;
+      @extend .ff-bold;
+      padding: 15px 0;
+      color: #81ac25;
+    }
+    .desc {
+      width: 495px;
+      margin: 0 auto;
+      padding-bottom: 30px;
+    }
+    .btn-done {
+      @include confirmBtn(400px, 52px, 16px, 8px);
+      margin: 0 auto;
+    }
+  }
+}

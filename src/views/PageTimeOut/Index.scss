@@ -1,0 +1,22 @@
+.page-time-out-wrapper {
+  padding-bottom: 100px;
+  img {
+    width: 60px;
+    height: 60px;
+    margin-top: 80px;
+  }
+  .title {
+    line-height: 35px;
+    font-size: 28px;
+    @extend .ff-bold;
+    padding: 32px 0 16px;
+  }
+  .desc {
+    line-height: 20px;
+    span {
+      @extend .ff-bold;
+      color: #FF671B;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "card-no-eligible":  "Vaša kartica na žalost ni več upravičena do te ugodnosti.",
+  "field-empty-msg":  "To polje je obvezno.",
+  "card-no-length":  "Vnesite vseh 16 številk vaše Mastercard kartice.",
+  "card-not-eligible":  "Kartica ni prepoznana. Preverite, ali so podatki o vaši kartici pravilno vneseni. Ali uporabite drugo kartico Mastercard.",
+  "cvc-incorrect":  "Koda CVC ni pravilna.",
+  "expiry-date-incorrect":  "Datum poteka veljavnosti ni pravilen.",
+  "card-invalid":  "Ta številka kartice ni veljavna. Poskusite znova.",
+  "card-is-reg": "Ta kartica je že registrirana. <span class='login' style='color: #062cf8;text-decoration: underline;font-weight: bold;cursor: pointer;'>Prijavite se</span> ali poskusite znova z drugo kartico Mastercard.",
+  "card-not-mastercard":  "Vnesite veljavno številko kartice Mastercard.",
+
+  "pwd-not-match":  "Gesli se ne ujemata. Poskusite znova.",
+  "pwd-invalid":  "Vaše geslo mora vsebovati le latinico.",
+  "pwd-incorrect":  "Geslo ni pravilno.",
+  "email-invalid":  "Vnesite veljaven e-poštni naslov.",
+  "login-info-err":  "Vaš e-poštni naslov ali geslo ni pravilno. Poskusite znova.",
+  "phone-invalid":  "Vnesite pravilen format.",
+  "name-invalid":  "Vaše ime mora biti napisano v latinici, kot na potnem listu.",
+  "email-is-reg": "E-poštni naslov že obstaja. <span class='login' style='color: #062cf8;text-decoration: underline;font-weight: bold;cursor: pointer;'>Prijavite se</span> zdaj ali uporabite drug e-poštni naslov.",
+  "update-card-is-reg":  "Ta kartica je že registrirana in v uporabi. Poskusite znova z drugo kartico Mastercard ali zamenjajte članstvo.",
+
+  "reset-pwd-account-lock-desc":  "Koda je bila že petkrat napačno vnesena. Vaš račun bo 5 minut zaklenjen. Poskusite znova pozneje.",
+  "email-not-match":  "E-poštni naslov se ne ujema."
+}

@@ -1,0 +1,202 @@
+.sign-up-step-wrapper {
+  width: 800px;
+  margin: 0 auto;
+  @extend .ff-book;
+  color: $black;
+  .step-title {
+    font-size: 32px;
+    @extend .ff-bold;
+    padding: 48px 0 32px;
+  }
+  .step-progress-mobile {
+    display: none;
+  }
+  .step-progress {
+    display: block;
+    width: 115%;
+    margin-left: -7.5%;
+    height: 80px;
+    @extend .ff-bold;
+    padding: 20px 60px;
+    border-radius: 10px;
+    background-color: #f0ede7;
+    box-sizing: border-box;
+    .step-item {
+      float: left;
+      line-height: 40px;
+      font-size: 20px;
+      .step-flag {
+        float: left;
+        width: 40px;
+        height: 40px;
+        color: #fff;
+        border-radius: 50%;
+        background-color: #c3c0b8;
+      }
+      .step-desc {
+        float: left;
+        margin-left: 24px;
+        color: #b5b1ab;
+      }
+    }
+    .current-step {
+      .step-flag {
+        background-color: #8db92e;
+      }
+      .step-desc {
+        color: $black;
+      }
+    }
+    .step-line {
+      float: left;
+      width: 150px;
+      height: 3px;
+      margin: 18.5px 38px;
+      background-color: #d6d0c9;
+    }
+    .step-line-actived {
+      background-color: #8db92e;
+    }
+  }
+  .form-wrapper {
+    width: 400px;
+    font-size: 16px;
+    margin: 0 auto;
+    text-align: left;
+    .form-desc {
+      line-height: 20px;
+      padding: 40px 0 24px 0;
+      color: $black;
+    }
+    .form-item {
+      padding-bottom: 24px;
+      .form-label {
+        line-height: 20px;
+        @extend .ff-bold;
+        padding-bottom: 12px;
+      }
+      .form-input {
+        width: 100%;
+        padding: 15px 16px;
+        border: 1px solid #c3c0b8;
+        border-radius: 4px;
+        box-sizing: border-box;
+        &:focus {
+          border-color: #f38b00;
+        }
+      }
+      .form-input-error {
+        border-color: $red;
+      }
+      .form-input-pwd {
+        position: relative;
+        .form-input {
+          padding-right: 86px;
+        }
+        .toggle-show-pwd {
+          position: absolute;
+          height: 52px;
+          line-height: 52px;
+          top: 0;
+          right: 0;
+          padding: 0 24px;
+          font-size: 14px;
+          @extend .ff-bold;
+          text-decoration: underline;
+          color: #555555;
+          cursor: pointer;
+        }
+      }
+      .error-msg {
+        line-height: 18px;
+        font-size: 14px;
+        padding-top: 8px;
+        margin-bottom: -7px;
+        color: $red;
+      }
+      .form-item-desc {
+        font-size: 14px;
+        padding-top: 16px;
+      }
+    }
+    .form-item-row {
+      .form-item-expiry-date {
+        padding-bottom: 24px;
+        width: 100%;
+      }
+      .form-item-cvc {
+        width: 100%;
+        .form-label {
+          display: flex;
+          img {
+            width: 33px;
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+
+    .btn-verify {
+      @include confirmBtn(100%, 52px, 16px, 8px);
+      &:hover {
+        @include btnHoverEffect();
+      }
+      .btn-loading {
+        @include loadingBtn();
+      }
+    }
+    .bottom-desc {
+      line-height: 20px;
+      font-size: 14px;
+      @extend .ff-book;
+      padding: 20px 0 88px;
+    }
+  }
+  .form-wrapper-step-2 {
+    width: 480px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .sign-up-step-wrapper {
+    width: 100%;
+    .step-title {
+      width: 88%;
+      font-size: 24px;
+      text-align: left;
+      margin: 0 auto;
+      padding: 24px 0 28px;
+    }
+    .step-progress {
+      display: none;
+    }
+    .step-progress-mobile {
+      display: flex;
+      align-items: center;
+      padding: 0 24px;
+      box-sizing: border-box;
+    }
+    .form-wrapper {
+      width: 88%;
+      margin: 0 auto;
+      .form-desc {
+        padding-bottom: 24px;
+      }
+      s .bottom-desc {
+        padding: 24px 0 54px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .form-item-expiry-date {
+    width: 58% !important;
+  }
+  .form-item-cvc {
+    width: 38% !important;
+  }
+  .form-label {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "card-no-eligible": "Désolé, votre carte n’est plus éligible pour cette prestation.",
+  "field-empty-msg": "Ce champ est obligatoire.",
+  "card-no-length": "Veuillez saisir les 16 chiffres du numéro de votre carte Mastercard.",
+  "card-not-eligible": "Carte non reconnue. Veuillez vérifier que les détails de votre carte sont correctement saisis. Ou utiliser une autre carte Mastercard.",
+  "cvc-incorrect": "Le CVC est incorrect.",
+  "expiry-date-incorrect": "La date d’expiration est incorrecte.",
+  "card-invalid": "Le numéro de cette carte n’est pas valide. Veuillez réessayer.",
+  "card-is-reg": "Cette carte est déjà enregistrée. Veuillez <span class='login' style='color: #062cf8;text-decoration: underline;font-weight: bold;cursor: pointer;'>vous connecter</span>ou réessayer avec une autre carte Mastercard.",
+  "card-not-mastercard": "Veuillez saisir un numéro de carte Mastercard valide.",
+  "pwd-not-match": "Les mots de passe ne correspondent pas. Veuillez réessayer.",
+  "pwd-invalid": "Votre mot de passe ne doit contenir que des caractères latins.",
+  "pwd-incorrect": "Le mot de passe est incorrect.",
+  "email-invalid": "Veuillez saisir une adresse électronique valide.",
+  "login-info-err": "Comment pouvons-nous vous aider ? Veuillez réessayer.",
+  "phone-invalid": "Veuillez saisir le format correct.",
+  "name-invalid": "Votre nom doit être écrit en lettres latines, comme indiqué sur votre passeport.",
+  "email-is-reg": "L’adresse e-mail existe déjà. <span class='login' style='color: #062cf8;text-decoration: underline;font-weight: bold;cursor: pointer;'>Connexion</span> ou utilisez une autre adresse e-mail.",
+  "update-card-is-reg": "Cette carte est déjà enregistrée et utilisée. Veuillez réessayer avec une autre carte Mastercard ou modifier votre abonnement.",
+  "reset-pwd-account-lock-desc": "Le code a été saisi incorrectement 5 fois.  Votre compte sera verrouillé pendant 5 minutes. Veuillez réessayer ultérieurement.",
+  "email-not-match": "L’adresse e-mail ne correspond pas."
+}

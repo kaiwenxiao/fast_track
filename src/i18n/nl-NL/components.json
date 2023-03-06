@@ -1,0 +1,27 @@
+{
+  "header-my-account": "Mijn account",
+  "header-logout": "Uitloggen",
+  "bookings": "Boekingen",
+  "header-login": "Inloggen",
+  "header-signup": "Aanmelden",
+  "footer-rights": "2021 Alle rechten voorbehouden.",
+  "footer-service-provided-desc-1": "Dienst geleverd door",
+  "footer-service-provided-desc-2": "via Mastercard",
+  "open-app-name": "Mastercard Travel Experiences Europe",
+  "btn-open": "Openen",
+
+  "page-time-out": "Pagina time-out",
+  "login-text1": "Er trad een time-out op voor de pagina. Log",
+  "login-text2": "opnieuw",
+  "login-text3": "in",
+
+  "session-timed-out": "Sessie verlopen",
+  "STO-desc1": "Uw sessie is bijna verlopen.",
+  "STO-desc2": "U wordt uitgelogd in",
+  "STO-desc3": "seconden",
+  "continue": "Doorgaan met sessie",
+
+  "connection-error": "Verbindingsfout",
+  "try-again": "Er zijn problemen met het verbinden met de server. Probeer het opnieuw.",
+  "ok": "OK"
+}

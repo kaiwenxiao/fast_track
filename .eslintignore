@@ -1,0 +1,5 @@
+!.eslintrc.js
+!.stylelintrc.js
+!.prettierrc.js
+!src\mixins\emitter.js
+!src\utils\appNative.js

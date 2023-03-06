@@ -1,0 +1,173 @@
+.add-card-wrapper {
+  padding-top: 36px !important;
+  .back {
+    display: flex;
+    line-height: 20px;
+    @extend .ff-bold;
+    align-items: center;
+    color: #ff671b;
+    cursor: pointer;
+    img {
+      width: 9px;
+      margin-right: 8px;
+    }
+  }
+  .content-title {
+    padding-top: 32px !important;
+  }
+  .desc {
+    line-height: 20px;
+    @extend .ff-book;
+    padding-bottom: 25px;
+  }
+  .form {
+    width: 400px;
+    .card-no-warming {
+      position: relative;
+      line-height: 20px;
+      font-size: 14px;
+      padding-left: 38px;
+      margin-bottom: 16px;
+      color: $red;
+      span {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        background: url('~img/icn-error@2x.png') no-repeat;
+        background-size: contain;
+      }
+    }
+    .form-item {
+      padding-bottom: 24px;
+      .form-label {
+        height: 20px;
+        line-height: 20px;
+        @extend .ff-bold;
+        padding-bottom: 12px;
+      }
+      .form-input {
+        width: 100%;
+        padding: 15px 16px;
+        border: 1px solid #c3c0b8;
+        border-radius: 4px;
+        box-sizing: border-box;
+        &:focus {
+          border-color: #f38b00;
+        }
+      }
+      .form-input-error {
+        border-color: $red;
+      }
+      .form-input-pwd {
+        position: relative;
+        .form-input {
+          padding-right: 86px;
+        }
+      }
+      .error-msg {
+        clear: both;
+        line-height: 18px;
+        font-size: 14px;
+        padding-top: 8px;
+        margin-bottom: -7px;
+        color: $red;
+      }
+      .form-item-desc {
+        font-size: 14px;
+        padding-top: 16px;
+      }
+    }
+    .form-item-cvc {
+      .form-label {
+        display: flex;
+        img {
+          width: 33px;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+  .btn-add {
+    @include confirmBtn(400px, 52px, 16px, 8px);
+    .btn-loading {
+      @include loadingBtn();
+    }
+  }
+  .desc-2 {
+    width: 600px;
+    line-height: 20px;
+    font-size: 14px;
+    @extend .ff-book;
+    padding: 24px 0 166px;
+  }
+}
+
+.add-card-succ-popup {
+  width: 568px;
+  padding: 88px 0;
+  text-align: center;
+  border-radius: 16px;
+  .icon-succ {
+    width: 50px;
+    height: 50px;
+  }
+  .popup-title {
+    line-height: 40px;
+    font-size: 32px;
+    @extend .ff-bold;
+    padding: 15px 0 10px;
+  }
+  .popup-desc {
+    width: 418px;
+    line-height: 20px;
+    font-size: 16px;
+    @extend .ff-book;
+    margin: 0 auto;
+  }
+  .popup-desc-2 {
+    padding: 30px 0 6px;
+  }
+  .card-no {
+    line-height: 30px;
+    font-size: 24px;
+    @extend .ff-bold;
+    padding-bottom: 1px;
+  }
+  .btn {
+    @include confirmBtn(400px, 52px, 16px, 8px);
+    margin: 32px auto 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .add-card-wrapper {
+    .form {
+      width: 100%;
+      .form-item-expiryDate {
+        width: 50%;
+      }
+      .form-item-cvc {
+        width: 44%;
+      }
+    }
+    .btn-add {
+      width: 100%;
+    }
+    .desc-2 {
+      width: 100%;
+    }
+  }
+  .add-card-succ-popup {
+    width: 92%;
+    padding: 40px 0;
+    .popup-desc {
+      width: 92%;
+    }
+    .btn {
+      width: 92%;
+    }
+  }
+}

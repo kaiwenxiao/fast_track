@@ -1,0 +1,27 @@
+{
+  "header-my-account": "Moj račun",
+  "header-logout": "Odjava",
+  "bookings": "Rezervacije",
+  "header-login": "Prijava",
+  "header-signup": "Registrirajte se",
+  "footer-rights": "2021. Sva prava pridržana.",
+  "footer-service-provided-desc-1": "Uslugu pruža",
+  "footer-service-provided-desc-2": "Mastercard",
+  "open-app-name": "Mastercard Travel Experiences Europe",
+  "btn-open": "Otvori",
+
+  "page-time-out": "Stranica je istekla",
+  "login-text1": "Stranica je istekla. Molimo",
+  "login-text2": "prijavite se",
+  "login-text3": "ponovo",
+
+  "session-timed-out": "Sesija je istekla",
+  "STO-desc1": "Vaša će sesija isteći.",
+  "STO-desc2": "Bit ćete odjavljeni za",
+  "STO-desc3": "nekoliko sekundi",
+  "continue": "Nastavite sesiju",
+
+  "connection-error": "Pogreška pri povezivanju",
+  "try-again": "Došlo je do problema tijekom povezivanja sa poslužiteljem. Pokušajte ponovo.",
+  "ok": "U redu"
+}

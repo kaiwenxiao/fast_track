@@ -1,0 +1,22 @@
+{
+  "card-no-eligible": "Nažalost, vaša kartica više nije podobna za ovu povlasticu.",
+  "field-empty-msg": "Ovo polje je obavezno.",
+  "card-no-length": "Molimo unesite svih 16 cifara broja svoje Matercard kartice.",
+  "card-not-eligible": "Kartica nije prepoznata. Molimo provjerite da li su detalji vaše kartice ispravno uneseni. Inače molimo upotrijebite drugu Mastercard karticu.",
+  "cvc-incorrect": "CVC je neispravan.",
+  "expiry-date-incorrect": "Rok važenja je neispravan.",
+  "card-invalid": "Ovaj broj kartice je nevažeći. Molimo pokušajte ponovo.",
+  "card-is-reg": "Ova kartica je već registrovana. Molimo <span class='login' style='color: #062cf8;text-decoration: underline;font-weight: bold;cursor: pointer;'>Prijavite se</span> ili pokušajte ponovo sa važećim brojem Mastercard kartice.",
+  "card-not-mastercard": "Molimo unesite važeći broj Mastercard kartice.",
+  "pwd-not-match": "Lozinke se ne podudaraju. Molimo pokušajte ponovo.",
+  "pwd-invalid": "Vaša lozinka mora sadržavati samo latinične znakove.",
+  "pwd-incorrect": "Lozinka je neispravna.",
+  "email-invalid": "Molimo unesite važeću adresu e-pošte.",
+  "login-info-err": "Vaša adresa e-pošte ili lozinka je neispravna. Molimo pokušajte ponovo.",
+  "phone-invalid": "Molimo unesite tačan format.",
+  "name-invalid": "Vaše ime mora biti napisano latiničnim slovima, kao što stoji na vašem pasošu.",
+  "email-is-reg": "Adresa e-pošte već postoji. Ili <span class='login' style='color: #062cf8;text-decoration: underline;font-weight: bold;cursor: pointer;'>prijava</span> ili upotrijebite drugu adresu e-pošte.",
+  "update-card-is-reg": "Ova kartica je već registrovana i koristi se. Molimo pokušajte ponovo sa drugom Mastercard karticom ili promijenite članstvo.",
+  "reset-pwd-account-lock-desc": "Kod je neispravno unesen 5 puta. Vaš račun će biti zaključan na 5 minuta. Molimo pokušajte ponovo kasnije.",
+  "email-not-match": "Adrese e-pošte se ne podudaraju."
+}

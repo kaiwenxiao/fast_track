@@ -1,0 +1,200 @@
+$black: #141413;
+$red: #d22a2f;
+
+@mixin cardBox($pt, $pr, $pb, $pl) {
+  padding: $pt $pr $pb $pl;
+  margin-bottom: 16px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+@mixin confirmBtn($w: 100%, $h: 46px, $fs: 20px, $br: 4px) {
+  position: relative;
+  display: inline-block;
+  min-width: $w;
+  height: $h;
+  line-height: $h;
+  font-size: $fs;
+  @extend .ff-bold;
+  color: #fff;
+  text-align: center;
+  background: #ff8c00;
+  border-radius: $br;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+@mixin btnHoverEffect() {
+  background: linear-gradient(to right, #ac4717, #af701a);
+}
+
+@mixin loadingBtn {
+  position: absolute;
+  width: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin borderBtn($w: 100%, $h: 46px, $lh: 44px, $fs: 20px, $br: 4px) {
+  min-width: $w;
+  height: $h;
+  line-height: $lh;
+  font-size: $fs;
+  @extend .ff-bold;
+  color: #f38b00;
+  text-align: center;
+  border: 1px solid #f38b00;
+  background: #fff;
+  border-radius: $br;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+@mixin textOverflow {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+@mixin airport-style {
+  position: relative;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  z-index: 1;
+  .airport-item {
+    position: relative;
+    // width: 358px;
+    width: 32.5%;
+    margin-top: 64px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 11px 20px #00000029;
+    cursor: pointer;
+
+    &:hover {
+      .hover-effect {
+        display: block;
+      }
+    }
+
+    .icon-ft-entitlement {
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      bottom: 16px;
+      right: 16px;
+      background: url("~img/icon-airport-entitlement-supported.svg") no-repeat;
+      background-size: contain;
+    }
+
+    .airport-pic-wrapper {
+      position: relative;
+    }
+
+    .can-i-use-entitlement {
+      position: absolute;
+      display: flex;
+      width: 100%;
+      min-height: 30px;
+      line-height: 20px;
+      padding: 5px 0;
+      align-items: center;
+      @extend .ff-bold;
+      color: #fff;
+      bottom: 0;
+      background-color: #8DB92E;
+      box-sizing: border-box;
+
+      img {
+        width: 26px;
+        height: 26px;
+        margin: 0 5px 0 10px;
+        background-color: transparent;
+      }
+    }
+
+    .hover-effect {
+      display: none;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-radius: 20px;
+      background: rgba(20, 20, 19, .5);
+      z-index: 1;
+
+      .book-now {
+        line-height: 40px;
+        font-size: 32px;
+        @extend .ff-bold;
+        padding-top: 70px;
+        text-align: center;
+        color: #fff;
+      }
+    }
+
+    img {
+      width: 100%;
+      height: 178px;
+      vertical-align: middle;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      background-color: #fff;
+    }
+
+    .airport-desc {
+      width: 100%;
+      // height: 253px;
+      padding: 20px;
+      box-sizing: border-box;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      background-color: #fff;
+
+      .airport-name {
+        height: 46px;
+        line-height: 23px;
+        font-size: 18px;
+        @extend .ff-bold;
+        @include textOverflow();
+      }
+
+      .airport-desc-item {
+        display: flex;
+        line-height: 20px;
+        font-size: 16px;
+        font-family: "MarkForMC-Book";
+        align-items: center;
+        padding-bottom: 15px;
+
+        img {
+          width: 25px;
+          height: 25px;
+          margin-right: 13px;
+        }
+
+        div {
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 2;
+        }
+
+        .text-one-line {
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+}
+
+.lang-en-US {
+  .can-i-use-entitlement {
+    padding: 0 !important;
+  }
+}

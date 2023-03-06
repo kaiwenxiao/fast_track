@@ -1,0 +1,24 @@
+{
+  "card-no-eligible": "Unfortunately your card is no longer eligible for this benefit.",
+  "field-empty-msg": "This field is required.",
+  "card-no-length": "Please enter all 16 digits of your Mastercard card number.",
+  "card-not-eligible": "Card not recognized. Please check that your card details are entered correctly. Otherwise please use another Mastercard card.",
+  "cvc-incorrect": "CVC is incorrect.",
+  "expiry-date-incorrect": "Expiry date is incorrect.",
+  "card-invalid": "This card number is invalid. Please try again.",
+  "card-is-reg": "This card is already registered. Please <span class='login' style='color: #062cf8;text-decoration: underline;font-weight: bold;cursor: pointer;'>Login</span> or try again with a different Mastercard.",
+  "card-not-mastercard": "Please enter a valid Mastercard card number.",
+
+  "pwd-not-match": "Passwords do not match. Please try again.",
+  "pwd-invalid": "Your password must contain only Latin characters.",
+  "pwd-incorrect": "Password is incorrect.",
+  "email-invalid": "Please enter a valid email address.",
+  "login-info-err": "Your email address or password is incorrect. Please try again.",
+  "phone-invalid": "Please fill in the correct format.",
+  "name-invalid": "Your name has to be written in Latin letters, as shown on your passport.",
+  "email-is-reg": "Email address already exists. Either <span class='login' style='color: #062cf8;text-decoration: underline;font-weight: bold;cursor: pointer;'>log in</span> Now or use another email address.",
+  "update-card-is-reg": "This card is already registered and in use. Please try again with a different Mastercard or switch memberships.",
+
+  "reset-pwd-account-lock-desc": "The code has been entered incorrectly 5 times. Your account will be locked for 5 minutes. Please try again later.",
+  "email-not-match": "Email address do not match."
+}

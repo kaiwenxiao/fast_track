@@ -1,0 +1,22 @@
+{
+  "card-no-eligible": "Lamentablemente, su tarjeta ya no puede acogerse a este beneficio.",
+  "field-empty-msg": "Este campo es obligatorio.",
+  "card-no-length": "Introduzca los 16 dígitos de su número de tarjeta Mastercard.",
+  "card-not-eligible": "Tarjeta no reconocida. Compruebe que los detalles de la tarjeta se han introducido correctamente. En caso contrario, utilice otra tarjeta Mastercard.",
+  "cvc-incorrect": "El CVC no es correcto.",
+  "expiry-date-incorrect": "La fecha de caducidad no es correcta.",
+  "card-invalid": "Este número de tarjeta no es válido. Por favor, inténtelo de nuevo.",
+  "card-is-reg": "Esta tarjeta ya está registrada. Por favor <span class='login' style='color: #062cf8;text-decoration: underline;font-weight: bold;cursor: pointer;'>inicie sesión</span> o inténtelo de nuevo con una tarjeta Mastercard diferente.",
+  "card-not-mastercard": "Introduzca un número de tarjeta Mastercard válido.",
+  "pwd-not-match": "Las contraseñas no coinciden. Por favor, inténtelo de nuevo.",
+  "pwd-invalid": "Su contraseña debe contener únicamente caracteres del alfabeto latino.",
+  "pwd-incorrect": "La contraseña es incorrecta.",
+  "email-invalid": "Introduzca una dirección de correo electrónico válida.",
+  "login-info-err": "Su dirección de correo electrónico o contraseña no es válida. Por favor, inténtelo de nuevo.",
+  "phone-invalid": "Rellene en el formato correcto.",
+  "name-invalid": "Su nombre tiene que estar escrito en letras latinas, tal como aparece en su pasaporte.",
+  "email-is-reg": "La dirección de correo electrónico ya existe. O bien <span class='login' style='color: #062cf8;text-decoration: underline;font-weight: bold;cursor: pointer;'>inicie sesión</span> o bien utilice otra dirección de correo electrónico.",
+  "update-card-is-reg": "La tarjeta ya está registrada y en uso. Por favor, inténtelo de nuevo con otra tarjeta Mastercard o cambie de afiliación.",
+  "reset-pwd-account-lock-desc": "El código se ha introducido incorrectamente 5 veces. Su cuenta se bloqueará durante 5 minutos. Por favor, inténtelo de nuevo más tarde.",
+  "email-not-match": "La dirección de correo electrónico no coincide."
+}

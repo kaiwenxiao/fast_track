@@ -1,0 +1,126 @@
+.form {
+  width: 480px;
+  .form-item {
+    padding-bottom: 24px;
+    .form-label {
+      height: 20px;
+      line-height: 20px;
+      @extend .ff-bold;
+      padding-bottom: 12px;
+    }
+    .form-input {
+      width: 100%;
+      padding: 15px 16px;
+      border: 1px solid #C3C0B8;
+      border-radius: 4px;
+      box-sizing: border-box;
+      &:focus {
+        border-color: #F38B00;
+      }
+    }
+    .form-input-error {
+      border-color: $red;
+    }
+    .form-input-pwd {
+      position: relative;
+      .form-input {
+        padding-right: 86px;
+      }
+      .toggle-show-pwd {
+        position: absolute;
+        height: 52px;
+        line-height: 52px;
+        top: 0;
+        right: 0;
+        padding: 0 24px;
+        font-size: 14px;
+        @extend .ff-bold;
+        text-decoration: underline;
+        color: #555555;
+        cursor: pointer;
+      }
+    }
+    .error-msg {
+      line-height: 18px;
+      font-size: 14px;
+      padding-top: 8px;
+      margin-bottom: -7px;
+      color: $red;
+    }
+    .form-item-desc-pwd {
+      font-size: 14px;
+      @extend .ff-bold;
+      padding-top: 16px;
+      color: #d22a2f;
+      &.strong {
+        color: #8db92e;
+      }
+    }
+  }
+  .password-desc {
+    font-size: 14px;
+    @extend .ff-book;
+    padding-bottom: 24px;
+    .password-desc-title {
+      padding-bottom: 10px;
+    }
+    .password-desc-item {
+      position: relative;
+      padding: 0 0 6px 25px;
+      .password-desc-icon {
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        top: -1px;
+        left: 0;
+        background-image: url('~img/icon-gray-check@2x.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+      .password-icon-matched {
+        background-image: url('~img/icon-green-check@2x.png');
+      }
+      .password-desc-matched {
+        @extend .ff-bold;
+      }
+    }
+  }
+  .btn-change {
+    @include confirmBtn(100%, 52px, 16px, 8px);
+    margin-bottom: 50px;
+    &:hover {
+      @include btnHoverEffect();
+    }
+    .btn-loading {
+      @include loadingBtn();
+    }
+  }
+}
+.succ-popup {
+  width: 568px;
+  text-align: center;
+  border-radius: 16px;
+  img {
+    width: 52px;
+    height: 52px;
+    margin-top: 80px;
+  }
+  .succ-title {
+    line-height: 40px;
+    font-size: 32px;
+    @extend .ff-bold;
+    padding: 16px 0;
+    color: #81AC25;
+  }
+  .succ-desc {
+    line-height: 20px;
+    @extend .ff-book;
+  }
+  .btn-done {
+    @include confirmBtn(280px, 52px, 16px, 8px);
+    margin: 32px auto 97px;
+    &:hover {
+      @include btnHoverEffect();
+    }
+  }
+}

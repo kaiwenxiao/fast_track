@@ -1,0 +1,27 @@
+{
+  "header-my-account": "A minha conta",
+  "header-logout": "Encerrar a sessão",
+  "bookings": "Reservas",
+  "header-login": "Iniciar a sessão",
+  "header-signup": "Inscrever-se",
+  "footer-rights": "2021 Todos os direitos reservados.",
+  "footer-service-provided-desc-1": "Serviço fornecido por",
+  "footer-service-provided-desc-2": "através da Mastercard",
+  "open-app-name": "Experiências de Viagem Mastercard Europa",
+  "btn-open": "Abrir",
+
+  "page-time-out": "Tempo da página excedido",
+  "login-text1": "O tempo da página foi excedido. Por favor,",
+  "login-text2": "inicie a sessão",
+  "login-text3": "novamente",
+
+  "session-timed-out": "Tempo da sessão excedido",
+  "STO-desc1": "A sua sessão está prestes a expirar.",
+  "STO-desc2": "A sua sessão será encerrada dentro de",
+  "STO-desc3": "segundos",
+  "continue": "Continuar a sessão",
+
+  "connection-error": "Erro de ligação",
+  "try-again": "Ocorreram problemas na ligação ao servidor. Por favor, tente novamente.",
+  "ok": "OK"
+}

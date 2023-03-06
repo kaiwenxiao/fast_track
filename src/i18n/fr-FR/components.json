@@ -1,0 +1,27 @@
+{
+  "header-my-account": "Mon compte",
+  "header-logout": "Déconnexion",
+  "bookings": "Réservations",
+  "header-login": "Se connecter",
+  "header-signup": "S’inscrire",
+  "footer-rights": "2021 Tous droits réservés.",
+  "footer-service-provided-desc-1": "Service fourni par",
+  "footer-service-provided-desc-2": "via Mastercard",
+  "open-app-name": "Mastercard Travel Experiences Europe",
+  "btn-open": "Ouvrir",
+
+  "page-time-out": "La page a expiré",
+  "login-text1": "La page a été interrompue. Veuillez",
+  "login-text2": "vous connecter",
+  "login-text3": "à nouveau",
+
+  "session-timed-out": "La session a expirée",
+  "STO-desc1": "Votre session est sur le point d’expirer.",
+  "STO-desc2": "Vous serez déconnecté dans",
+  "STO-desc3": "secondes",
+  "continue": "Continuer la session",
+
+  "connection-error": "Erreur de connexion",
+  "try-again": "Nous rencontrons des problèmes de connexion au serveur. Veuillez réessayer.",
+  "ok": "OK"
+}

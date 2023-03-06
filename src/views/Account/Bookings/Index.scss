@@ -1,0 +1,194 @@
+.bookings-wrapper {
+  .tab-wrapper {
+    padding-top: 8px;
+    .tab {
+      margin-bottom: 8px;
+      .tab-item {
+        position: relative;
+        float: left;
+        line-height: 20px;
+        font-size: 16px;
+        @extend .ff-book;
+        padding: 16px 21px;
+        margin-right: 52px;
+        cursor: pointer;
+        .active-line {
+          position: absolute;
+          width: 100%;
+          height: 3px;
+          bottom: 0;
+          left: 0;
+          background-color: #f38b00;
+        }
+      }
+      .tab-item-actived {
+        @extend .ff-bold;
+        color: #f38b00;
+      }
+    }
+    .tab-content {
+      .history-item {
+        width: 100%;
+        margin-top: 24px;
+        border-radius: 8px;
+        box-sizing: 0 3px 6px #00000029;
+        background-color: #f4f4f4;
+        .history-item-pic {
+          float: left;
+          width: 250px;
+          height: 110px;
+          border-top-left-radius: 8px;
+          border-bottom-left-radius: 8px;
+          vertical-align: middle;
+        }
+        .history-item-r {
+          float: left;
+          width: 546px;
+          padding: 0 20px 18px 24px;
+          box-sizing: border-box;
+          .item-title {
+            line-height: 24px;
+            font-size: 18px;
+            @extend .ff-bold;
+            padding: 10px 0 15px;
+          }
+          .item-detail {
+            line-height: 18px;
+            font-size: 14px;
+            @extend .ff-med;
+            .item-detail-airport {
+              width: 250px;
+              margin-right: 32px;
+              .item-nowrap {
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+              }
+            }
+            .item-detail-airport,
+            .item-detail-date {
+              div {
+                &:nth-of-type(2) {
+                  padding-top: 8px;
+                }
+              }
+            }
+            .item-view {
+              color: #ff671b;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+      .upcoming-trips-empty {
+        margin-top: 82px;
+        text-align: center;
+        img {
+          width: 90px;
+          height: 90px;
+        }
+        .desc {
+          @extend .ff-book;
+          padding: 24px 0;
+        }
+        .btn-book {
+          @include confirmBtn(330px, 46px, 16px, 4px);
+          margin: 0 auto;
+          &:hover {
+            @include btnHoverEffect();
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .ff-bold-media {
+    font-family: 'MarkForMC-Bold';
+  }
+  .lang-ru-RU {
+    .ff-bold-media {
+      font-family: 'FuturaPTW10-Bold';
+    }
+  }
+  .lang-el-GR {
+    .ff-bold-media {
+      font-family: 'FuturaPlusW15-Bold';
+    }
+  }
+
+  .bookings-wrapper {
+    .tab-wrapper {
+      padding-top: 0;
+      padding-bottom: 60px;
+      .tab {
+        .tab-item {
+          font-size: 14px;
+          padding: 10px 0;
+          margin-right: 40px;
+        }
+      }
+      .tab-content {
+        .history-item {
+          .history-item-pic {
+            float: none;
+            width: 100%;
+            border-bottom-left-radius: unset;
+            border-top-right-radius: 8px;
+          }
+          .history-item-r {
+            position: relative;
+            float: none;
+            width: 100%;
+            padding: 0 16px 36px 12px;
+            .item-detail {
+              .item-detail-airport {
+                width: 100%;
+                float: none;
+                div {
+                  &:nth-of-type(2) {
+                    padding: 16px 0;
+                  }
+                }
+              }
+              .item-detail-date {
+                width: 100%;
+                float: none;
+                div {
+                  float: left;
+                  &:nth-of-type(2) {
+                    padding-top: 0;
+                    margin-left: 24px;
+                  }
+                }
+              }
+              .item-view {
+                position: absolute;
+                float: none;
+                top: 10px;
+                right: 16px;
+                @extend .ff-bold-media;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .tab-item {
+    margin-right: 30px !important;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .tab-item {
+    margin-right: 0 !important;
+    &:not(:last-of-type) {
+      margin-right: 20px !important;
+    }
+  }
+}

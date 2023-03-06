@@ -1,0 +1,27 @@
+{
+  "header-my-account": "My Account",
+  "header-logout": "Log Out",
+  "bookings": "Bookings",
+  "header-login": "Log In",
+  "header-signup": "Sign Up",
+  "footer-rights": "2021 All rights reserved.",
+  "footer-service-provided-desc-1": "Service provided by",
+  "footer-service-provided-desc-2": "through Mastercard",
+  "open-app-name": "Mastercard Travel Experiences Europe",
+  "btn-open": "Open",
+
+  "page-time-out": "Page Timed Out",
+  "login-text1": "The page has timed out. Please",
+  "login-text2": "log in",
+  "login-text3": "again",
+
+  "session-timed-out": "Session Timed Out",
+  "STO-desc1": "Your session is about expire.",
+  "STO-desc2": "You will be logged out in",
+  "STO-desc3": "seconds",
+  "continue": "Continue Session",
+
+  "connection-error": "Connection Error",
+  "try-again": "There are problems connecting to the server. Please try again.",
+  "ok": "OK"
+}

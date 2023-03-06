@@ -1,0 +1,340 @@
+/* stylelint-disable */
+$pc: 1440px;
+$mobile: 750px;
+$backgroundColor: #f4f4f4;
+
+@font-face {
+  font-family: 'MarkForMC-Regular';
+  src: url('~fonts/MarkForMC-Regular.ttf') format('truetype'),
+    url('~fonts/MarkForMC-Regular.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MarkForMC-Med';
+  src: url('~fonts/MarkForMC-Med.ttf') format('truetype'),
+    url('~fonts/MarkForMC-Med.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MarkForMC-Lt';
+  src: url('~fonts/MarkForMC-Lt.ttf') format('truetype'),
+    url('~fonts/MarkForMC-Lt.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MarkForMC-Book';
+  src: url('~fonts/MarkForMC-Book.ttf') format('truetype'),
+    url('~fonts/MarkForMC-Book.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MarkForMC-Bold';
+  src: url('~fonts/MarkForMC-Bold.ttf') format('truetype'),
+    url('~fonts/MarkForMC-Bold.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* 俄语字体-FuturaPTW10 */
+@font-face {
+  font-family: 'FuturaPTW10-Regular';
+  src: url('~fonts/FuturaPTW10-Book.ttf') format('truetype'),
+    url('~fonts/FuturaPTW10-Book.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FuturaPTW10-Med';
+  src: url('~fonts/FuturaPTW10-Medium.ttf') format('truetype'),
+    url('~fonts/FuturaPTW10-Medium.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FuturaPTW10-Book';
+  src: url('~fonts/FuturaPTW10-Book.ttf') format('truetype'),
+    url('~fonts/FuturaPTW10-Book.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FuturaPTW10-Bold';
+  src: url('~fonts/FuturaPTW10-Bold.ttf') format('truetype'),
+    url('~fonts/FuturaPTW10-Bold.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+/* FuturaPTW10 end */
+
+/* 希腊语-FuturaPlusW15 */
+@font-face {
+  font-family: 'FuturaPlusW15-Regular';
+  src: url('~fonts/FuturaPlusW15-Book.ttf') format('truetype'),
+    url('~fonts/FuturaPlusW15-Book.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FuturaPlusW15-Med';
+  src: url('~fonts/FuturaPlusW15-Medium.ttf') format('truetype'),
+    url('~fonts/FuturaPlusW15-Medium.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FuturaPlusW15-Book';
+  src: url('~fonts/FuturaPlusW15-Book.ttf') format('truetype'),
+    url('~fonts/FuturaPlusW15-Book.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FuturaPlusW15-Bold';
+  src: url('~fonts/FuturaPlusW15-Bold.ttf') format('truetype'),
+    url('~fonts/FuturaPlusW15-Bold.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+/* FuturaPlusW15 end */
+
+.ff-reg {
+  font-family: 'MarkForMC-Regular';
+}
+
+.ff-med {
+  font-family: 'MarkForMC-Med';
+}
+.ff-book {
+  font-family: 'MarkForMC-Book';
+}
+.ff-bold {
+  font-family: 'MarkForMC-Bold';
+}
+.lang-ru-RU {
+  .ff-reg {
+    font-family: 'FuturaPTW10-Regular';
+  }
+  .ff-med {
+    font-family: 'FuturaPTW10-Med';
+  }
+  .ff-book {
+    font-family: 'FuturaPTW10-Book';
+  }
+  .ff-bold {
+    font-family: 'FuturaPTW10-Bold';
+  }
+}
+.lang-el-GR {
+  .ff-reg {
+    font-family: 'FuturaPlusW15-Regular';
+  }
+  .ff-med {
+    font-family: 'FuturaPlusW15-Med';
+  }
+  .ff-book {
+    font-family: 'FuturaPlusW15-Book';
+  }
+  .ff-bold {
+    font-family: 'FuturaPlusW15-Bold';
+  }
+}
+
+.clearfix {
+  display: block;
+  zoom: 1;
+}
+.clearfix:after {
+  content: ' ';
+  display: block;
+  font-size: 0;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+// 第一层
+.page-main {
+  width: $pc;
+  margin: 0 auto;
+}
+// 第二层
+.form_wrapper {
+  width: $mobile;
+  margin: 0 auto;
+}
+// 媒体查询
+@media screen and (max-width: 1024px) {
+  .page_main {
+    width: 100%;
+    max-width: $mobile;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+
+  .form_wrapper {
+    width: 100%;
+    overflow: hidden;
+  }
+}
+
+// 自定义样式
+.textLeft {
+  text-align: left;
+}
+
+.textRight {
+  text-align: right;
+}
+
+.flexRight {
+  justify-content: flex-start;
+  margin-left: auto;
+}
+
+.flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.box-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-justify {
+  display: flex;
+  align-items: justify;
+  justify-content: space-between;
+}
+
+.line {
+  border-bottom: 1px solid #dedee6;
+}
+
+@media screen and (max-width: 1024px) {
+  .ErrTextStyle {
+    padding: unset;
+  }
+}
+
+.ErrTextStyle {
+  font-size: 14px;
+  color: #d22a2f;
+  padding: 10px 0;
+}
+
+.error {
+  border: 1px solid #d22a2f !important;
+}
+
+.errorText {
+  padding: 10px 0;
+  font-size: 14px;
+  color: #d22a2f;
+}
+
+input[disabled],
+input:disabled,
+input.disabled {
+  color: #f0ede7;
+  -webkit-text-fill-color: #f0ede7;
+}
+
+// 覆盖vant组件样式
+.van-circle__text {
+  font-size: 16px !important;
+  font-weight: bold !important;
+}
+
+.van-calendar__header-title {
+  height: 0 !important;
+  font-size: 0 !important;
+}
+.van-calendar__header-subtitle {
+  font-size: 18px !important;
+  font-family: 'MarkForMC-Bold' !important;
+}
+
+.van-calendar__weekday {
+  font-size: 12px !important;
+  font-weight: bold !important;
+  color: #383838 !important;
+  text-transform: uppercase !important;
+}
+
+.van-stepper__plus {
+  font-weight: bolder !important;
+  color: #f38b00 !important;
+  background-color: #fff !important;
+  border: 2px solid #f38b00 !important;
+}
+
+.van-stepper--round .van-stepper__minus {
+  font-weight: bolder !important;
+  color: #f38b00 !important;
+  background-color: #fff !important;
+  border: 2px solid #f38b00 !important;
+}
+
+.van-stepper--round .van-stepper__minus--disabled,
+.van-stepper--round .van-stepper__minus--disabled:active,
+.van-stepper--round .van-stepper__plus--disabled,
+.van-stepper--round .van-stepper__plus--disabled:active {
+  color: #747575 !important;
+  background-color: #fff !important;
+  border: 2px solid #747575 !important;
+}
+
+.loading-spin {
+  width: 100vw !important;
+  height: 100px !important;
+  max-width: 100% !important;
+  min-height: 100vh !important;
+  .van-toast__icon {
+    font-size: 80px;
+  }
+}
+.van-dialog-helptopic {
+  .van-dialog__message {
+    font-size: 16px;
+    font-family: 'MarkForMC-Bold';
+  }
+  .van-dialog__footer {
+    border: 2px solid #f79f1a;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+  }
+  .van-button__content {
+    color: #f79f1a;
+    font-size: 16px;
+    font-family: 'MarkForMC-Bold';
+  }
+
+  .van-dialog__confirm {
+    background-color: #f79f1a;
+    .van-button__content {
+      color: #fff;
+    }
+  }
+}

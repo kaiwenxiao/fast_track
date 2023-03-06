@@ -1,0 +1,33 @@
+.server-error-wrapper {
+  width: 400px;
+  padding: 110px 0 126px;
+  text-align: center;
+  margin: 0 auto;
+  img {
+    width: 50px;
+    height: 50px;
+  }
+  .server-error-title {
+    line-height: 40px;
+    font-size: 32px;
+    @extend .ff-bold;
+    padding: 30px 0 40px;
+    color: $red;
+  }
+  .server-error-desc {
+    font-family: "MarkForMC-Book";
+    padding-bottom: 32px;
+  }
+  .btn-ok {
+    @include confirmBtn(400px, 52px, 16px, 8px);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .server-error-wrapper {
+    width: 88%;
+    .btn-ok {
+      width: 100% !important;
+    }
+  }
+}
